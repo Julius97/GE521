@@ -164,7 +164,7 @@ table td:first-child, table th:first-child{
 	float: left;
 	box-shadow: 0px 0px 2px 2px gray;
 	border-radius: 10px;
-	min-width: 220px;
+	min-width: 290px;
 	width: 20%;
 	margin-bottom: 20px;
 }
@@ -212,9 +212,9 @@ table td:first-child, table th:first-child{
 }
 #content{
 	float: right;
-	width: 76%;
 	background: white;
 	margin-bottom: 20px;
+	width: 76%;
 }
 #footer{
 	border-radius: 10px;
@@ -264,4 +264,35 @@ table td:first-child, table th:first-child{
 }
 #footer ul li:hover{
 	background: #0e0e0e;
+}
+@media (max-width: 1550px){
+	#content{
+		width: 800px;
+	}
+}
+@media (max-width: 1550px){
+	#content{
+		width: 800px;
+	}
+}
+@media (max-width: 1400px){
+	#content{
+		width: 650px;
+	}
+}
+@media (max-width: 1200px){
+	#content{
+		width: 500px;
+	}
+}
+@media (max-width: 1050px){
+	#submenue{
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+	#content{
+		float: none;
+		width: 100%;
+	}
 }
