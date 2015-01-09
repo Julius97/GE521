@@ -29,6 +29,7 @@
 						<li><a href="kriegsverlauf.html">Kriegsverlauf</a></li>
 						<li><a href="entnazifizierung.html">Entnazifizierung</a></li>
 						<li><a href="kriegsverbrechen.html">Kriegsverbrechen</a></li>
+						<li><a href="ende_wk.html">Ende des Kriegs</a></li>
 					</ul>
 				</div>
 				<div id="content">
