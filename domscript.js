@@ -1,3 +1,5 @@
+load_page_url = "home.html";
+
 $(document).ready(function(){
 	$(".menue ul li a").click(function(ev){
 		$(".menue ul li").css("background","#45484d");
@@ -8,7 +10,10 @@ $(document).ready(function(){
 		$(".menue ul li").css("background","linear-gradient(to bottom, #45484d 0%,#000000 100%)");
 		$(".menue ul li").css("filter","progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 )");
 		$(this).parent().css("background","#0e0e0e");
-		$("#content").load($(this).attr("href"));
+		if(load_page_url != $(this).attr("href")){
+			load_page_url = $(this).attr("href");
+			$("#content").load($(this).attr("href"));
+		}
 		ev.preventDefault();
 	});
 });
