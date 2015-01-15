@@ -30,6 +30,7 @@
 						<li><a href="entnazifizierung.html">Entnazifizierung</a></li>
 						<li><a href="kriegsverbrechen.html">Kriegsverbrechen</a></li>
 						<li><a href="ende_wk.html">Ende des Kriegs</a></li>
+						<li><a href="ueberwachung.html">Überwachung des Volkes</a></li>
 					</ul>
 				</div>
 				<div id="content">
